@@ -20,11 +20,11 @@ setTimeout(() => {
 // });
 
 document.querySelector('.contact-btn').addEventListener('click', () => {
-    window.location.href = 'https://api.whatsapp.com/send?phone=919056230369&text=i%20am%20a%20plus1%20%student';
+    window.location.href = 'https://api.whatsapp.com/send?phone=919056230369&text=i%20am%20a%20plus1%20student';
 });
 document.querySelector('.close-now-btn').addEventListener('click', () => {
-    window.location.href = 'https://api.whatsapp.com/send?phone=919056230369&text=i%20am%20a%20plus1%20%student';
+    window.location.href = 'https://api.whatsapp.com/send?phone=919056230369&text=i%20am%20a%20plus1%20student';
 });
 document.querySelector('.close-btn').addEventListener('click', () => {
-    window.location.href = 'https://api.whatsapp.com/send?phone=919056230369&text=i%20am%20a%20plus1%20%student';
+    window.location.href = 'https://api.whatsapp.com/send?phone=919056230369&text=i%20am%20a%20plus1%20student';
 });
