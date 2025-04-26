@@ -5,3 +5,20 @@ document.querySelectorAll('.enroll-btn').forEach(button => {
         alert(`Thank you for your interest in ${subject}! Visit plus1.elinavara.com for enrollment details.`);
     });
 });
+
+// Popup functionality
+setTimeout(() => {
+    document.getElementById('discount-popup').style.display = 'block';
+}, 3000);
+
+document.querySelector('.close-btn').addEventListener('click', () => {
+    document.getElementById('discount-popup').style.display = 'none';
+});
+
+document.querySelector('.close-now-btn').addEventListener('click', () => {
+    document.getElementById('discount-popup').style.display = 'none';
+});
+
+document.querySelector('.contact-btn').addEventListener('click', () => {
+    window.location.href = 'https://wa.me/919056230369';
+});
