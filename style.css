@@ -208,3 +208,15 @@ footer a:hover {
     background-color: #f0f2f5;
     color: #333;
 }
+
+.responsive-image {
+    width: 70vw;
+    height: auto;
+  }
+
+  @media (min-width: 768px) {
+    .responsive-image {
+      width: auto;
+      height: 30vh;
+    }
+  }
